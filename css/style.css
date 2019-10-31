@@ -23,7 +23,11 @@ body { 	    background-color:#646;
 			margin: 1rem auto; padding-bottom: 10px;
 			border-top-left-radius:25px; box-shadow: 0 0 10px #000;
 			font: 100%/1.4 Verdana, Geneva, sans-serif; }
-header, footer { padding:.5em 1rem .2em 1rem; margin:0; color:#fff; }
+header, footer { padding:.5em 1rem .2em 1rem;
+                margin:0;
+                color:#fff;
+
+              }
 footer {    background:#fff; background:rgba(235,225,235,1);
             font-size:.8rem; color: #666; }
 main {      background:#fff; background:rgba(215,200,215,1);
@@ -46,6 +50,13 @@ p { 		font-size:90%; margin: 0 0 .5rem 0;  }
 }
 .triptych:last-child {
     margin:0 0 0 0;
+}
+header{
+    background-image: url(../img/wood-texture.jpg);
+}
+
+.fas{
+  color: #9f0060;
 }
 
 /* media query 1: define styles that should only kick in if screen is above 561 pixels wide... */
